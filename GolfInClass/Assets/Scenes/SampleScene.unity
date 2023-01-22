@@ -902,8 +902,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.04805374
+        time: 0.006095886
+        value: 0.0319252
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -913,8 +913,8 @@ LineRenderer:
       - serializedVersion: 3
         time: 1
         value: 0
-        inSlope: -0.04805374
-        outSlope: -0.04805374
+        inSlope: -0.032121006
+        outSlope: -0.032121006
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
@@ -1151,15 +1151,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76ab9809800b875418301fd0f3a48541, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76ab9809800b875418301fd0f3a48541, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76ab9809800b875418301fd0f3a48541, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76ab9809800b875418301fd0f3a48541, type: 3}
       propertyPath: m_LocalPosition.x
