@@ -118,7 +118,14 @@ public class BallController : MonoBehaviour
         if (holeTime > minHoleTime)
         {
             // le player fini le niveau et passe au suivant 
-            Debug.Log("Vous avez passé ce niveau en " + putts + " tirs");
+            if (putts <= 1)
+            {
+                Debug.Log("Vous avez passé ce niveau en " + putts + " tir");
+            }
+            else
+            {
+                Debug.Log("Vous avez passé ce niveau en " + putts + " tirs");
+            }
             holeTime = 0;
         }
     }
