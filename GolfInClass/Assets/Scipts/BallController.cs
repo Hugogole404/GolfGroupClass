@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BallController : MonoBehaviour
 {
@@ -16,6 +17,9 @@ public class BallController : MonoBehaviour
     public Slider PowerSlider;
     private float powerUPTime;
     private float power;
+
+    public TextMeshProUGUI puttsCountsLabel;
+    private int putts;
 
     void Awake()
     {
@@ -63,6 +67,8 @@ public class BallController : MonoBehaviour
         power = 0;
         PowerSlider.value = 0;
         powerUPTime = 0;
+        putts++;
+        puttsCountsLabel.text = putts.ToString();
     }
 
     private void PowerUp()
