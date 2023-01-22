@@ -3,23 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Serialization;
+
 
 public class BallController : MonoBehaviour
 {
-    public float MaxPower;
-    public float ChangeAngleSpeed;
+    // ball 
+    [Header("Ball Setting")]
+    [SerializeField] public float MaxPower;
+    [SerializeField] public float ChangeAngleSpeed;
 
-    private LineRenderer line;
+    // line ball 
+    [Header("Ball Line Setting")]
+    [SerializeField] private LineRenderer line;
     [SerializeField] private Rigidbody ball;
-    private float angle;
-    public float LineLenght;
+    [SerializeField] private float angle;
 
-    public Slider PowerSlider;
-    private float powerUPTime;
-    private float power;
+    // ui power ball 
+    [Header("UI Ball Power Setting")]
+    [SerializeField] public float LineLenght;
+    [SerializeField] public Slider PowerSlider;
+    [SerializeField] private float powerUPTime;
+    [SerializeField] private float power;
 
-    public TextMeshProUGUI puttsCountsLabel;
-    private int putts;
+    // putt 
+    [Header("Putts Setting")]
+    [SerializeField] public TextMeshProUGUI puttsCountsLabel;
+    [SerializeField] private int putts;
+
+    // hole
+    [Header("Hole Setting")]
+    [SerializeField] public float minHoleTime;
+    [SerializeField] private float holeTime;
 
     void Awake()
     {
@@ -31,23 +46,30 @@ public class BallController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (ball.velocity.magnitude < 0.01f)
         {
-            ChangeAngle(-1);
+            if (Input.GetKey(KeyCode.Q))
+            {
+                ChangeAngle(-1);
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                ChangeAngle(1);
+            }
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                Putt();
+            }         
+            if (Input.GetKey(KeyCode.Space))
+            {
+                PowerUp();
+            } 
+            UpdateLinePosition();
         }
-        if (Input.GetKey(KeyCode.D))
+        else
         {
-            ChangeAngle(1);
+            line.enabled = false;
         }
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            Putt();
-        }         
-        if (Input.GetKey(KeyCode.Space))
-        {
-            PowerUp();
-        } 
-        UpdateLinePosition();
     }
 
     private void ChangeAngle(int direction)
@@ -57,6 +79,10 @@ public class BallController : MonoBehaviour
 
     private void UpdateLinePosition()
     {
+        if (holeTime == 0)
+        {
+            line.enabled = true;
+        }
         line.SetPosition(0, transform.position);
         line.SetPosition(1, transform.position + Quaternion.Euler(0, angle, 0) * Vector3.forward * LineLenght);
     }
@@ -76,5 +102,37 @@ public class BallController : MonoBehaviour
         powerUPTime += Time.deltaTime;
         power = Mathf.PingPong(powerUPTime, 1);
         PowerSlider.value = power;
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if ( other.tag == "Hole")
+        {
+            CountHoleTime();
+        }
+    }    
+
+    private void CountHoleTime()
+    {
+        holeTime += Time.deltaTime;
+        if (holeTime > minHoleTime)
+        {
+            // le player fini le niveau et passe au suivant 
+            Debug.Log("Vous avez passé ce niveau en " + putts + " tirs");
+            holeTime = 0;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if ( other.tag == "Hole")
+        {
+            LeftHole();
+        }
+    }
+
+    private void LeftHole()
+    {
+        holeTime = 0;
     }
 }
