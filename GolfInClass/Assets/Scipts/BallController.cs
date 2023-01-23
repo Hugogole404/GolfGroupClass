@@ -38,11 +38,41 @@ public class BallController : MonoBehaviour
 
     void Awake()
     {
+        plane = new Plane(Vector3.up, 0);
         ball = GetComponent<Rigidbody>();
         ball.maxAngularVelocity = 1000;
         line = GetComponent<LineRenderer>();
     }
 
+    #region Rayon
+    private Plane plane;
+    private Ray mousePositionRay;
+    private Vector3 hitPoint = Vector3.zero;
+    private Vector3 playerPositionOnPlane = Vector3.zero;
+    //private 
+
+    private void OnMouseUp()
+    {
+        //peut etre des trucs à faire quand on relache le click
+    }
+    private void OnMouseDrag()
+    {
+        mousePositionRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (plane.Raycast(mousePositionRay, out var enter))
+        {
+            hitPoint = mousePositionRay.GetPoint(enter);
+            playerPositionOnPlane = plane.ClosestPointOnPlane(transform.position);
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Vector3 direction = hitPoint - playerPositionOnPlane;
+        direction = direction.magnitude > MaxPower ? direction.normalized * MaxPower : direction;
+        Gizmos.DrawLine(playerPositionOnPlane, playerPositionOnPlane + direction );
+
+    }
+    #endregion
 
     void Update()
     {
@@ -59,11 +89,11 @@ public class BallController : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.Space))
             {
                 Putt();
-            }         
+            }
             if (Input.GetKey(KeyCode.Space))
             {
                 PowerUp();
-            } 
+            }
             UpdateLinePosition();
         }
         else
@@ -106,11 +136,11 @@ public class BallController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if ( other.tag == "Hole")
+        if (other.tag == "Hole")
         {
             CountHoleTime();
         }
-    }    
+    }
 
     private void CountHoleTime()
     {
@@ -132,7 +162,7 @@ public class BallController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if ( other.tag == "Hole")
+        if (other.tag == "Hole")
         {
             LeftHole();
         }
