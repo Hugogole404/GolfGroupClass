@@ -11,7 +11,7 @@ public class BallController : MonoBehaviour
     // ball 
     [Header("Ball Setting")]
     [SerializeField] public float MaxPower;
-    [SerializeField] public float ChangeAngleSpeed;
+    [SerializeField] private float ChangeAngleSpeed;
 
     // line ball 
     [Header("Ball Line Setting")]
@@ -21,19 +21,19 @@ public class BallController : MonoBehaviour
 
     // ui power ball 
     [Header("UI Ball Power Setting")]
-    [SerializeField] public float LineLenght;
-    [SerializeField] public Slider PowerSlider;
+    [SerializeField] private float LineLenght;
+    [SerializeField] private Slider PowerSlider;
     [SerializeField] private float powerUPTime;
     [SerializeField] private float power;
 
     // putt 
     [Header("Putts Setting")]
-    [SerializeField] public TextMeshProUGUI puttsCountsLabel;
+    [SerializeField] private TextMeshProUGUI puttsCountsLabel;
     [SerializeField] private int putts;
 
     // hole
     [Header("Hole Setting")]
-    [SerializeField] public float minHoleTime;
+    [SerializeField] private float minHoleTime;
     [SerializeField] private float holeTime;
 
     void Awake()

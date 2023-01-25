@@ -9,15 +9,15 @@ using TMPro;
 public class Menu : MonoBehaviour
 {
     [Header ("Les Boutons")]
-    [SerializeField]public List<Button> ButtonsMenu;
-    [SerializeField] public TMPro.TextMeshProUGUI Text;
+    [SerializeField] private List<Button> ButtonsMenu;
+    [SerializeField] private TMPro.TextMeshProUGUI Text;
 
     [Header("Le Fade")]
-    [SerializeField] public Image ImageFade;
-    //[SerializeField] public Image ImageOutline;
-    //[SerializeField] public Image ImageScale;
-    [SerializeField] public Color ColorInitial;
-    [SerializeField] public Color ColorSelected;
+    [SerializeField] private Image ImageFade;
+    //[SerializeField] private Image ImageOutline;
+    //[SerializeField] private Image ImageScale;
+    [SerializeField] private Color ColorInitial;
+    [SerializeField] private Color ColorSelected;
 
     #region Pointer
     public void OnPointerEnter()
