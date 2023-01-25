@@ -51,54 +51,30 @@ public class Menu : MonoBehaviour
     bool _hidden = false;
     #endregion
 
-    #region ClickDesBoutonsComplete
-    public void OnClickPlay()
-    {
-        //for (int i = 1; i < ButtonsMenu.Count; i++)
-        //{
-        //    ButtonsMenu[i].Hide(0.1f);
-        //}
-        //ImageFade.DOFade(1, 0.8f).OnComplete(FadePlayComplete);
-    }    
-    public void OnClickCreditsComplete()
-    {
-        SceneManager.LoadScene("InGame");
-    }    
-    public void OnClickLevelCompete()
-    {        
-        SceneManager.LoadScene("InGame");
-    }    
-    public void OnClickQuitComplete()
-    {
-        SceneManager.LoadScene("InGame");
-    }
+    #region ClickDesBoutons
 
-    private void FadePlayCompleteComplete()
-    {
-        SceneManager.LoadScene("InGame");
-    }
     #endregion
 
     #region Fade
     public void FadePlay()
     {
-        SceneManager.LoadScene("MainGame");
-    }
-    public void FadeCredits()
+
+    }    
+    public void FadeCredit()
     {
-        SceneManager.LoadScene("Credits");
+
     }    
     public void FadeLevel()
     {
-        SceneManager.LoadScene("SelectLevels");
-    }
-    public void FadeMenu()
+
+    }    
+    public void Fade()
     {
-        SceneManager.LoadScene("Menu");
-    }
+
+    }    
     public void FadeQuit()
     {
-        Application.Quit();
+
     }
     #endregion
 }
