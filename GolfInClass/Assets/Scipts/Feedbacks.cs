@@ -1,42 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Feedbacks : MonoBehaviour
 {
-    private Camera cam;
-    public float ActualSize;
-    public GameObject ball;
-    private Vector3 offset;
-    public float StartingSize;
+    BallController ballController;
+    public Camera cam;
+    public float OriginalZoom = 5;
+    public float TargetZoom = 20;
+    public float Timer = 0;
+    
     void Start()
     {
-        cam = Camera.main;
-        ActualSize = cam.orthographicSize;
-        StartingSize = cam.orthographicSize;
-        offset = transform.position - ball.transform.position;
+        OriginalZoom = 1;
+        cam.orthographicSize = OriginalZoom;
+        ballController = GetComponent<BallController>();
+        
 
     }
-    
-    
     void Update()
     {
-        Debug.Log(ActualSize);
-
+        _CameraZoomInOut();
     }
 
-    private void LateUpdate()
-    {
-        CameraFollowBall();
-    }
-
-    public void CameraFollowBall() //ici pour que la cam suit la balle
-    {
-        transform.position = ball.transform.position + offset;
-    }
-
-    private void ZoomCamera()
+    private void _CameraZoomInOut()
     {
 
+        if (ballController.PowerSlider.value >= 0.75)
+        {
+            cam.orthographicSize = TargetZoom;
+            Timer = Time.time;
+        }
+        if (Timer >= 1)
+        {
+            cam.orthographicSize = OriginalZoom;
+            Timer = 0;
+        }
     }
 }

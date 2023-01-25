@@ -22,7 +22,7 @@ public class BallController : MonoBehaviour
     // ui power ball 
     [Header("UI Ball Power Setting")]
     [SerializeField] private float LineLenght;
-    [SerializeField] private Slider PowerSlider;
+    public Slider PowerSlider;
     [SerializeField] private float powerUPTime;
     [SerializeField] private float power;
 
