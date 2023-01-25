@@ -38,41 +38,41 @@ public class BallController : MonoBehaviour
 
     void Awake()
     {
-        plane = new Plane(Vector3.up, 0);
+        //plane = new Plane(Vector3.up, 0);
         ball = GetComponent<Rigidbody>();
         ball.maxAngularVelocity = 1000;
         line = GetComponent<LineRenderer>();
     }
 
-    #region Rayon
-    private Plane plane;
-    private Ray mousePositionRay;
-    private Vector3 hitPoint = Vector3.zero;
-    private Vector3 playerPositionOnPlane = Vector3.zero;
-    //private 
+    //#region Rayon
+    //private Plane plane;
+    //private Ray mousePositionRay;
+    //private Vector3 hitPoint = Vector3.zero;
+    //private Vector3 playerPositionOnPlane = Vector3.zero;
+    ////private 
 
-    private void OnMouseUp()
-    {
-        //peut etre des trucs à faire quand on relache le click
-    }
-    private void OnMouseDrag()
-    {
-        mousePositionRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (plane.Raycast(mousePositionRay, out var enter))
-        {
-            hitPoint = mousePositionRay.GetPoint(enter);
-            playerPositionOnPlane = plane.ClosestPointOnPlane(transform.position);
-        }
-    }
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Vector3 direction = hitPoint - playerPositionOnPlane;
-        direction = direction.magnitude > MaxPower ? direction.normalized * MaxPower : direction;
-        Gizmos.DrawLine(playerPositionOnPlane, playerPositionOnPlane + direction );
+    //private void OnMouseUp()
+    //{
+    //    //peut etre des trucs à faire quand on relache le click
+    //}
+    //private void OnMouseDrag()
+    //{
+    //    mousePositionRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+    //    if (plane.Raycast(mousePositionRay, out var enter))
+    //    {
+    //        hitPoint = mousePositionRay.GetPoint(enter);
+    //        playerPositionOnPlane = plane.ClosestPointOnPlane(transform.position);
+    //    }
+    //}
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.blue;
+    //    Vector3 direction = hitPoint - playerPositionOnPlane;
+    //    direction = direction.magnitude > MaxPower ? direction.normalized * MaxPower : direction;
+    //    Gizmos.DrawLine(playerPositionOnPlane, playerPositionOnPlane + direction );
 
-    }
-    #endregion
+    //}
+    //#endregion
 
     void Update()
     {
