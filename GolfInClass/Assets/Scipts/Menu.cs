@@ -14,8 +14,8 @@ public class Menu : MonoBehaviour
 
     [Header("Le Fade")]
     [SerializeField] public Image ImageFade;
-    [SerializeField] public Image ImageOutline;
-    [SerializeField] public Image ImageScale;
+    //[SerializeField] public Image ImageOutline;
+    //[SerializeField] public Image ImageScale;
     [SerializeField] public Color ColorInitial;
     [SerializeField] public Color ColorSelected;
 
@@ -24,16 +24,16 @@ public class Menu : MonoBehaviour
     {
         if (_hidden)
             return;
-        ImageOutline.DOKill();
-        ImageOutline.DOFade(1, 0.3f);
+        //ImageOutline.DOKill();
+        //ImageOutline.DOFade(1, 0.3f);
 
         Text.DOKill();
         Text.DOColor(ColorSelected, 0.3f);
     }    
     public void OnPointerExit()
     {
-        ImageOutline.DOKill();
-        ImageOutline.DOFade(0, 0.2f);
+        //ImageOutline.DOKill();
+        //ImageOutline.DOFade(0, 0.2f);
 
         Text.DOKill();
         Text.DOColor(ColorInitial, 0.2f);
@@ -52,27 +52,46 @@ public class Menu : MonoBehaviour
     #endregion
 
     #region ClickDesBoutons
+    public void OnCLickOnPlay()
+    {
 
+    }    
+    public void OnCLickOnLevels()
+    {
+
+    }    
+    public void OnCLickOnCredits()
+    {
+
+    }    
+    public void OnCLickOnMenu()
+    {
+
+    }    
+    public void OnCLickOnQuit()
+    {
+
+    }
     #endregion
 
     #region Fade
-    public void FadePlay()
+    public void FadePlayComplete()
     {
 
     }    
-    public void FadeCredit()
+    public void FadeCreditsComplete()
     {
 
     }    
-    public void FadeLevel()
+    public void FadeLevelComplete()
     {
 
     }    
-    public void Fade()
+    public void FadeMenuComplete()
     {
 
     }    
-    public void FadeQuit()
+    public void FadeQuitComplete()
     {
 
     }

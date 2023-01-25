@@ -442,7 +442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7942742204491326613, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7942742204491326613, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -569,8 +569,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1608952217}
-  - {fileID: 1102981455}
   - {fileID: 1022080319}
+  - {fileID: 1102981455}
   - {fileID: 889159768}
   m_Father: {fileID: 460718499}
   m_RootOrder: 2
@@ -801,7 +801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7942742204491326613, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7942742204491326613, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -979,6 +979,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7942742204491326613, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 7942742203109199116}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1608952218 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 7942742203109199116}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2046538326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2052303953}
+  - component: {fileID: 2052303954}
   m_Layer: 0
   m_Name: _Scripts
   m_TagString: Untagged
@@ -1094,6 +1106,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2052303954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052303952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff225fd53d29024468d590158ba2a498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonsMenu:
+  - {fileID: 1608952218}
+  - {fileID: 1608952218}
+  - {fileID: 1608952218}
+  - {fileID: 1608952218}
+  Text: {fileID: 0}
+  ImageFade: {fileID: 1241233493}
+  ColorInitial: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
+  ColorSelected: {r: 0.8207547, g: 0, b: 0, a: 0}
 --- !u!1001 &7942742203109199116
 PrefabInstance:
   m_ObjectHideFlags: 0
