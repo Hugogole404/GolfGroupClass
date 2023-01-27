@@ -229,7 +229,7 @@ public class BallController : MonoBehaviour
         if (InBoosterArea)
         {
             
-            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            //GetComponent<Rigidbody>().velocity = Vector3.zero;
             boosterTime = Time.time;
         }
         if (boosterTime >= 1)
