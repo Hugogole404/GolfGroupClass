@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Serialization;
+using DG.Tweening;
 
 
 public class BallController : MonoBehaviour
@@ -35,6 +36,17 @@ public class BallController : MonoBehaviour
     [Header("Hole Setting")]
     [SerializeField] private float minHoleTime;
     [SerializeField] private float holeTime;
+
+    // WindArea(Ventilos)
+    [SerializeField] private bool InWindArea = false;
+    public GameObject windArea;
+
+    // BoosterArea(Boosters)
+    [SerializeField] private bool InBoosterArea = false;
+    public GameObject boosterArea;
+    private float boosterTime;
+    
+
 
     void Awake()
     {
@@ -166,10 +178,70 @@ public class BallController : MonoBehaviour
         {
             LeftHole();
         }
+
+        //Pour le vent : Quand la balle sors de la zone bool = false
+        if (other.gameObject.tag == "windArea")
+        {
+            InWindArea = false;
+        }
+
+        //Pour le booster : Quand la balle sors de la zone bool = false
+        if (other.gameObject.tag == "boosterArea")
+        {
+            InBoosterArea = false;
+        }
     }
 
     private void LeftHole()
     {
         holeTime = 0;
     }
+
+    //Pour le vent : Quand la balle entre dans la zone bool = true
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "windArea")
+        {
+            windArea = other.gameObject;
+            InWindArea = true;
+        }
+
+        //Pour le booster : Quand la balle entre dans la zone bool = true
+        if (other.gameObject.tag == "boosterArea")
+        {
+            boosterArea = other.gameObject;
+            InBoosterArea = true;
+            gameObject.transform.DOMove(other.transform.position, 0.5f, false);
+        }
+    }
+
+
+    private void FixedUpdate()
+    {
+        //Actions par rapport aux bools juste au dessus (ce qui fait que la balle bouge)
+        //Wind :
+        if (InWindArea)
+        {
+            ball.AddForce(windArea.GetComponent<windArea>().Airdirection * windArea.GetComponent<windArea>().AirStrength);
+        }
+        
+        //Booster :
+        if (InBoosterArea)
+        {
+            
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            boosterTime = Time.time;
+        }
+        if (boosterTime >= 1)
+        {
+            
+            ball.AddForce(boosterArea.GetComponent<boosterArea>().Boosterdirection * boosterArea.GetComponent<boosterArea>().BoosterStrength);
+        }
+        if (boosterTime >= 10)
+        {
+            boosterTime = 0;
+        }
+    }
+
+
 }
