@@ -7,6 +7,7 @@ TagManager:
   - Hole
   - windArea
   - boosterArea
+  - OutOfBounds
   layers:
   - Default
   - TransparentFX

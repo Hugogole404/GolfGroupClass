@@ -9,6 +9,10 @@ using DG.Tweening;
 
 public class BallController : MonoBehaviour
 {
+    // respawn ball 
+    [Header("Resapawn Ball Settings")]
+    private Vector3 lastPosition;
+
     // ball 
     [Header("Ball Setting")]
     [SerializeField] public float MaxPower;
@@ -47,8 +51,8 @@ public class BallController : MonoBehaviour
     [SerializeField] private bool InBoosterArea = false;
     public GameObject boosterArea;
     private float boosterTime;
-    
 
+    
 
     void Awake()
     {
@@ -133,6 +137,7 @@ public class BallController : MonoBehaviour
 
     private void Putt()
     {
+        lastPosition = transform.position;
         ball.AddForce(Quaternion.Euler(0, angle, 0) * Vector3.forward * MaxPower * power, ForceMode.Impulse);
         power = 0;
         PowerSlider.value = 0;
@@ -245,5 +250,13 @@ public class BallController : MonoBehaviour
         }
     }
 
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "OutOfBounds")
+        {
+            transform.position = lastPosition;
+            ball.velocity = Vector3.zero;
+            ball.angularVelocity = Vector3.zero;
+        }
+    }
 }

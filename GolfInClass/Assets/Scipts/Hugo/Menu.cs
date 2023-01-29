@@ -8,6 +8,11 @@ using TMPro;
 
 public class Menu : MonoBehaviour
 {
+    //[Header("Player Name")]
+    //public TMP_InputField inputPlayerName;
+    //public PlayerRecords playerRecords;
+    //public Button buttonStart;
+
     [Header ("Les Boutons")]
     [SerializeField] private List<Button> ButtonsMenu;
     [SerializeField] private TMPro.TextMeshProUGUI Text;
@@ -18,6 +23,14 @@ public class Menu : MonoBehaviour
     //[SerializeField] private Image ImageScale;
     [SerializeField] private Color ColorInitial;
     [SerializeField] private Color ColorSelected;
+
+    //#region Player's name
+    //public void ButtonAddPlayer()
+    //{
+    //    playerRecords.AddPlayer(inputPlayerName.text);
+    //    buttonStart.interactable = true;
+    //}
+    //#endregion
 
     #region Pointer
     public void OnPointerEnter()
