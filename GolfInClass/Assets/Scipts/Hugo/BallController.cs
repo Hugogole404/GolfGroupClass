@@ -38,10 +38,12 @@ public class BallController : MonoBehaviour
     [SerializeField] private float holeTime;
 
     // WindArea(Ventilos)
+    [Header("Wind Area Settings")]
     [SerializeField] private bool InWindArea = false;
     public GameObject windArea;
 
     // BoosterArea(Boosters)
+    [Header("Booster Area Setting")]
     [SerializeField] private bool InBoosterArea = false;
     public GameObject boosterArea;
     private float boosterTime;

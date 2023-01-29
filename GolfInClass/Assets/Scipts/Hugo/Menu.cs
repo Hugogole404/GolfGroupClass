@@ -77,23 +77,23 @@ public class Menu : MonoBehaviour
     #region Fade
     public void FadePlayComplete()
     {
-
+        SceneManager.LoadScene("MainGame");
     }    
     public void FadeCreditsComplete()
     {
-
-    }    
+        SceneManager.LoadScene("Credits");
+    }
     public void FadeLevelComplete()
     {
-
+        SceneManager.LoadScene("SelectLevels");
     }    
     public void FadeMenuComplete()
     {
-
+        SceneManager.LoadScene("Menu");
     }    
     public void FadeQuitComplete()
     {
-
+        Application.Quit();
     }
     #endregion
 }

@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxPower: 0.7
-  ChangeAngleSpeed: 150
+  ChangeAngleSpeed: 140
   line: {fileID: 0}
   ball: {fileID: 5129004818030577494}
   angle: 0
@@ -249,3 +249,7 @@ MonoBehaviour:
   putts: 0
   minHoleTime: 2
   holeTime: 0
+  InWindArea: 0
+  windArea: {fileID: 0}
+  InBoosterArea: 0
+  boosterArea: {fileID: 0}
