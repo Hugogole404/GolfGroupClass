@@ -67,23 +67,23 @@ public class Menu : MonoBehaviour
     #region ClickDesBoutons
     public void OnCLickOnPlay()
     {
-
+        ImageFade.DOFade(1, 0.8f).OnComplete(FadePlayComplete);
     }    
     public void OnCLickOnLevels()
     {
-
+        ImageFade.DOFade(1, 0.8f).OnComplete(FadeLevelsComplete);
     }    
     public void OnCLickOnCredits()
     {
-
+        ImageFade.DOFade(1, 0.8f).OnComplete(FadeCreditsComplete);
     }    
     public void OnCLickOnMenu()
     {
-
+        ImageFade.DOFade(1, 0.8f).OnComplete(FadeMenuComplete);
     }    
     public void OnCLickOnQuit()
     {
-
+        ImageFade.DOFade(1, 0.8f).OnComplete(FadeQuitComplete);
     }
     #endregion
 
@@ -96,7 +96,7 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
-    public void FadeLevelComplete()
+    public void FadeLevelsComplete()
     {
         SceneManager.LoadScene("SelectLevels");
     }    

@@ -8,6 +8,8 @@ using TMPro;
 
 public class MenuManager : MonoBehaviour
 {
+    public Menu menu;
+
     [Header("Player Name")]
     public TMP_InputField inputPlayerName;
     public PlayerRecords playerRecords;
@@ -32,6 +34,6 @@ public class MenuManager : MonoBehaviour
     public void ButtonStart()
     {
         //SceneManager.LoadScene(playerRecords.levels[0]);
-        SceneManager.LoadScene("MainGame");
+        menu.OnCLickOnPlay();
     }
 }
