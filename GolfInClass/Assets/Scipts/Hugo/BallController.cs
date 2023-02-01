@@ -218,6 +218,7 @@ public class BallController : MonoBehaviour
         {
             boosterArea = other.gameObject;
             InBoosterArea = true;
+            ball.velocity = Vector3.zero;
             gameObject.transform.DOMove(other.transform.position, 0.5f, false);
         }
     }
