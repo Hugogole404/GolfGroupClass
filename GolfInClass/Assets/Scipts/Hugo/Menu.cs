@@ -15,6 +15,11 @@ public class Menu : MonoBehaviour
 
     [Header ("Les Boutons")]
     [SerializeField] private List<Button> ButtonsMenu;
+    [SerializeField] private GameObject ButtonPlay;
+    [SerializeField] private GameObject ButtonLevels;
+    [SerializeField] private GameObject ButtonCredits;
+    [SerializeField] private GameObject ButtonMenu;
+    [SerializeField] private GameObject ButtonQuit;
     [SerializeField] private TMPro.TextMeshProUGUI Text;
 
     [Header("Le Fade")]
@@ -67,22 +72,32 @@ public class Menu : MonoBehaviour
     #region ClickDesBoutons
     public void OnCLickOnPlay()
     {
+        ButtonPlay.transform.DOComplete();
+        ButtonPlay.transform.DOPunchScale(new Vector3(0.2f, 0.2f, 0), 0.3f);
         ImageFade.DOFade(1, 0.8f).OnComplete(FadePlayComplete);
     }    
     public void OnCLickOnLevels()
     {
+        ButtonLevels.transform.DOComplete();
+        ButtonLevels.transform.DOPunchScale(new Vector3(0.2f, 0.2f, 0), 0.3f);
         ImageFade.DOFade(1, 0.8f).OnComplete(FadeLevelsComplete);
     }    
     public void OnCLickOnCredits()
     {
+        ButtonCredits.transform.DOComplete();
+        ButtonCredits.transform.DOPunchScale(new Vector3(0.2f, 0.2f, 0), 0.3f);
         ImageFade.DOFade(1, 0.8f).OnComplete(FadeCreditsComplete);
     }    
     public void OnCLickOnMenu()
     {
+        ButtonMenu.transform.DOComplete();
+        ButtonMenu.transform.DOPunchScale(new Vector3(0.2f, 0.2f, 0), 0.3f);
         ImageFade.DOFade(1, 0.8f).OnComplete(FadeMenuComplete);
     }    
     public void OnCLickOnQuit()
     {
+        ButtonQuit.transform.DOComplete();
+        ButtonQuit.transform.DOPunchScale(new Vector3(0.2f, 0.2f, 0), 0.3f);
         ImageFade.DOFade(1, 0.8f).OnComplete(FadeQuitComplete);
     }
     #endregion

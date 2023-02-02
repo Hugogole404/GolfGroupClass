@@ -15,11 +15,14 @@ public class MenuManager : MonoBehaviour
     public PlayerRecords playerRecords;
     public Button buttonStart;
     public Button buttonAddPlayer;
+    public GameObject ButtonConfirm;
 
 
     #region Player's name
     public void ButtonAddPlayer()
     {
+        ButtonConfirm.transform.DOComplete();
+        ButtonConfirm.transform.DOPunchScale(new Vector3(0.2f, 0.2f, 0), 0.3f);
         playerRecords.AddPlayer(inputPlayerName.text);
         buttonStart.interactable = true;
         inputPlayerName.text = "";
