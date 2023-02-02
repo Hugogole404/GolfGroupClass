@@ -8,13 +8,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4658793255992416651}
+  - component: {fileID: 8702108773154352069}
   - component: {fileID: 8577246628176909870}
   - component: {fileID: 5831166549036507876}
   - component: {fileID: 5129004818030577494}
   - component: {fileID: 5129004818030577500}
   - component: {fileID: 5129004818030577496}
   - component: {fileID: 5129004818030577497}
+  - component: {fileID: 3951441942702270477}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -22,21 +23,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4658793255992416651
-Transform:
+--- !u!224 &8702108773154352069
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5470900912918201137}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6679305, y: 0.8721157, z: -4.4819}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.7132196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.1895876, y: 1.6126316}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!33 &8577246628176909870
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -253,3 +259,11 @@ MonoBehaviour:
   windArea: {fileID: 0}
   InBoosterArea: 0
   boosterArea: {fileID: 0}
+--- !u!222 &3951441942702270477
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5470900912918201137}
+  m_CullTransparentMesh: 1
