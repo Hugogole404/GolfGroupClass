@@ -27,7 +27,7 @@ public class PointerButtonLevels : MonoBehaviour
         ButtonLevel1.transform.DOScale(_newScale, 0.3f);
         
     }
-    public void OnpointerExit()
+    public void OnPointerExit()
     {
 
         ButtonLevel1.transform.DOKill();

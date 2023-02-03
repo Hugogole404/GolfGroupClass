@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -8,8 +10,7 @@ using TMPro;
 
 public class ButtonsLevelChoice : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> ButtonList;
-    [SerializeField] private GameObject[] ButtonListeSelection;
+    //[SerializeField] private List<GameObject> ButtonList;
+    [SerializeField] private Button[] ButtonLevelsSelection;
     
-
 }

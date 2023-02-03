@@ -905,7 +905,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 889159771}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
-          m_MethodName: OnpointerExit
+          m_MethodName: OnPointerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1202,7 +1202,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1022080322}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
-          m_MethodName: OnpointerExit
+          m_MethodName: OnPointerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1967,7 +1967,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1308702474}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
-          m_MethodName: OnpointerExit
+          m_MethodName: OnPointerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2046,7 +2046,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1608952220}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
-          m_MethodName: OnpointerExit
+          m_MethodName: OnPointerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2409,7 +2409,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1983097179}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
-          m_MethodName: OnpointerExit
+          m_MethodName: OnPointerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
