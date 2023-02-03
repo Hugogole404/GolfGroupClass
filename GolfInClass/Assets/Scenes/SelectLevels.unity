@@ -292,6 +292,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 42152568}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &42152571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 42152568}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42152570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &42152574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +320,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 42152575}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -325,7 +336,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 42152575}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -349,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 42152571}
 --- !u!1001 &244253770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -757,6 +768,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 352485651}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &352485654 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 352485651}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352485653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &352485657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -774,7 +796,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 352485658}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -790,7 +812,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 352485658}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -814,7 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 352485654}
 --- !u!1 &352642833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1241,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 386423299}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &386423302 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 386423299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386423301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &386423305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1236,7 +1269,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 386423306}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -1252,7 +1285,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 386423306}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -1276,7 +1309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 386423302}
 --- !u!1001 &514147486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1444,6 +1477,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 514147486}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &514147489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 514147486}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514147488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &514147492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,7 +1505,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 514147493}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -1477,7 +1521,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 514147493}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -1501,7 +1545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 514147489}
 --- !u!1001 &581993699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1671,6 +1715,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 581993699}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &581993702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 581993699}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581993701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &581993705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1688,7 +1743,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 581993706}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -1704,7 +1759,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 581993706}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -1728,7 +1783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 581993702}
 --- !u!1 &597605668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,6 +2015,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 598763156}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &598763159 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 598763156}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598763158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &598763162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1977,7 +2043,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 598763163}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -1993,7 +2059,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 598763163}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -2017,7 +2083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 598763159}
 --- !u!1001 &599620446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2187,6 +2253,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 599620446}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &599620449 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 599620446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599620448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &599620452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2204,7 +2281,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 599620453}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -2220,7 +2297,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 599620453}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -2244,7 +2321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 599620449}
 --- !u!1001 &708255495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2412,6 +2489,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 708255495}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &708255498 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 708255495}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708255497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &708255501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2429,7 +2517,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 708255502}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -2445,7 +2533,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 708255502}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -2469,7 +2557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 708255498}
 --- !u!1 &735961511
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,6 +2819,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 829262530}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &829262533 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 829262530}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829262532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &829262536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2748,7 +2847,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 829262537}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -2764,7 +2863,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 829262537}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -2788,7 +2887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 829262533}
 --- !u!1 &923581803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3040,6 +3139,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 931663266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &931663269 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 931663266}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931663268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &931663272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3057,7 +3167,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 931663273}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -3073,7 +3183,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 931663273}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -3097,7 +3207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 931663269}
 --- !u!1 &1047749856
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,6 +3420,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 1048645916}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1048645919 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 1048645916}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048645918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1048645922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3327,7 +3448,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1048645923}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -3343,7 +3464,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1048645923}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -3367,7 +3488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 1048645919}
 --- !u!1001 &1136911890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3537,6 +3658,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 1136911890}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1136911893 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 1136911890}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136911892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1136911896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3554,7 +3686,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1136911897}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -3570,7 +3702,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1136911897}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -3594,7 +3726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 1136911893}
 --- !u!1 &1138265232
 GameObject:
   m_ObjectHideFlags: 0
@@ -3829,6 +3961,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 1226043521}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1226043524 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 1226043521}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226043523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1226043527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3846,7 +3989,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1226043528}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -3862,7 +4005,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1226043528}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -3886,7 +4029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 1226043524}
 --- !u!1001 &1252837368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4056,6 +4199,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 1252837368}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1252837371 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 1252837368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252837370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1252837374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4073,7 +4227,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1252837375}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -4089,7 +4243,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1252837375}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -4113,7 +4267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 1252837371}
 --- !u!1001 &1269288326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4283,6 +4437,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 1269288326}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1269288329 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 1269288326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269288328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1269288332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4300,7 +4465,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1269288333}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -4316,7 +4481,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1269288333}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -4340,7 +4505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 1269288329}
 --- !u!1 &1465146972
 GameObject:
   m_ObjectHideFlags: 0
@@ -4586,6 +4751,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 1468971113}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1468971116 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 1468971113}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468971115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1468971119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4603,7 +4779,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1468971120}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -4619,7 +4795,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1468971120}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -4643,7 +4819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 1468971116}
 --- !u!1001 &1589840347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4779,7 +4955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7942742204491326613, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 55
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7942742204491326613, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5176,6 +5352,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7942742204491326612, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
   m_PrefabInstance: {fileID: 1783782036}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1783782039 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942742204491326614, guid: a64d93f80f8a502489221a54906a94a3, type: 3}
+  m_PrefabInstance: {fileID: 1783782036}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783782038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1783782042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5193,7 +5380,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1783782043}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
@@ -5209,7 +5396,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1783782043}
           m_TargetAssemblyTypeName: PointerButtonLevels, Assembly-CSharp
           m_MethodName: OnpointerExit
           m_Mode: 1
@@ -5233,4 +5420,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829af514b1647fb47a5eeff4707ea845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonLevel1: {fileID: 0}
+  ButtonLevel1: {fileID: 1783782039}
