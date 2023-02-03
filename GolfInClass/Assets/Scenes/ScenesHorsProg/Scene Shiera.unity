@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.48625505, g: 0.41907477, b: 0.44190153, a: 1}
+  m_IndirectSpecularColor: {r: 0.28887436, g: 0.36300462, b: 0.4248731, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -473,6 +473,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8dc08086fb61df448c58a541353a995, type: 2}
     - target: {fileID: 919132149155446097, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_Name
       value: Caisse
@@ -1941,7 +1945,7 @@ PrefabInstance:
     - target: {fileID: 4407187375235809858, guid: 2119c64785fb25f4599bd7abaed3536c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f0fea57975ba71441992ede4e7d8330b, type: 2}
+      objectReference: {fileID: 2100000, guid: 80a29550625f1f247b749a69ef7bc707, type: 2}
     - target: {fileID: 8424073627695423409, guid: 2119c64785fb25f4599bd7abaed3536c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2786,7 +2790,7 @@ PrefabInstance:
     - target: {fileID: 5831166549036507876, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f0fea57975ba71441992ede4e7d8330b, type: 2}
+      objectReference: {fileID: 2100000, guid: 80a29550625f1f247b749a69ef7bc707, type: 2}
     - target: {fileID: 8702108773154352069, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: m_RootOrder
       value: 14
