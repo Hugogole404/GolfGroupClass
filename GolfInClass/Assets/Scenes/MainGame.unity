@@ -606,7 +606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111.4, y: -12.1}
+  m_AnchoredPosition: {x: 110.1, y: -11.6}
   m_SizeDelta: {x: 168.51, y: 34.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301518334
@@ -2001,7 +2001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70, y: -17.5}
+  m_AnchoredPosition: {x: 78.1, y: -15.3}
   m_SizeDelta: {x: 168.51, y: 34.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143242019
@@ -2024,7 +2024,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SHOT LEFT:'
+  m_text: 'SHOT :'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 22650d06adca457489072cf7f80df62f, type: 2}
   m_sharedMaterial: {fileID: 1020873961490453491, guid: 22650d06adca457489072cf7f80df62f, type: 2}
@@ -2987,7 +2987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 285, y: 169.99994}
+  m_AnchoredPosition: {x: 285, y: 174}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754736297
