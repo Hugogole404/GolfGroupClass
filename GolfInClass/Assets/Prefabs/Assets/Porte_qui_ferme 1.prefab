@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 440144771715394597}
   - component: {fileID: 5139092390506598278}
+  - component: {fileID: 6518210339047430686}
   m_Layer: 0
   m_Name: Porte_qui_ferme 1
   m_TagString: Untagged
@@ -54,6 +55,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &6518210339047430686
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959378848894891679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1401217905349537644
 GameObject:
   m_ObjectHideFlags: 0
