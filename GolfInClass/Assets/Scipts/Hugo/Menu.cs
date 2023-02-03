@@ -37,37 +37,6 @@ public class Menu : MonoBehaviour
     //}
     //#endregion
 
-    #region Pointer
-    public void OnPointerEnter()
-    {
-        if (_hidden)
-            return;
-        //ImageOutline.DOKill();
-        //ImageOutline.DOFade(1, 0.3f);
-
-        Text.DOKill();
-        Text.DOColor(ColorSelected, 0.3f);
-    }    
-    public void OnPointerExit()
-    {
-        //ImageOutline.DOKill();
-        //ImageOutline.DOFade(0, 0.2f);
-
-        Text.DOKill();
-        Text.DOColor(ColorInitial, 0.2f);
-    }    
-    public void Hide()
-    {
-        //ImageOutline.DOKill();
-        //ImageOutline.DOFade(0, time);
-
-        //Text.DOKill();
-        //Text.DOFade(0, time);
-
-        _hidden = true;
-    }
-    bool _hidden = false;
-    #endregion
 
     #region ClickDesBoutons
     public void OnCLickOnPlay()

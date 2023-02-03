@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 using DG.Tweening;
 using TMPro;
 
-
-public class Test : MonoBehaviour
+public class LevelButtonScenePass : MonoBehaviour
 {
     [SerializeField] private Button _levelButtonClicked;
 
