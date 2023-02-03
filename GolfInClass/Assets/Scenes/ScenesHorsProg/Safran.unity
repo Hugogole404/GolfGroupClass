@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.48625505, g: 0.41907477, b: 0.44190153, a: 1}
+  m_IndirectSpecularColor: {r: 0.28887436, g: 0.36300462, b: 0.4248731, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -404,6 +404,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3906958f265c17042b67c5336211e4de, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 619fc15110e018a4ca0ebad1bead7d96, type: 2}
     - target: {fileID: 919132149155446097, guid: 3906958f265c17042b67c5336211e4de, type: 3}
       propertyPath: m_Name
       value: Plane_creux (1)
