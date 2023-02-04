@@ -612,6 +612,66 @@ Transform:
   m_Father: {fileID: 7418486608570620051}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6519524183975562861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6761901673722626542}
+  - component: {fileID: 1021928375378601023}
+  - component: {fileID: 984760458187695617}
+  m_Layer: 0
+  m_Name: wind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6761901673722626542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6519524183975562861}
+  m_LocalRotation: {x: -0, y: 0.71622753, z: -0, w: 0.6978669}
+  m_LocalPosition: {x: -0.5407111, y: 2.200197, z: 12.507902}
+  m_LocalScale: {x: 5.4938626, y: 2.4401438, z: 8.668367}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7418486608570620051}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1021928375378601023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6519524183975562861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cc7b7551a64cb44b67a7d20c0728d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AirStrength: 1
+  Airdirection: {x: 0, y: 0, z: 1}
+--- !u!65 &984760458187695617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6519524183975562861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7906089936047587881
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +713,7 @@ Transform:
   - {fileID: 3445049759158555620}
   - {fileID: 4244618354544882398}
   - {fileID: 2749774099198100860}
+  - {fileID: 6761901673722626542}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 178.414, z: 0}
