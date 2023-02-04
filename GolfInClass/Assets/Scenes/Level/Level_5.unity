@@ -3601,7 +3601,7 @@ PrefabInstance:
     - target: {fileID: 8946705179126992600, guid: bad2cde4097966d45bef9deeeff6b7a9, type: 3}
       propertyPath: sharedProfile
       value: 
-      objectReference: {fileID: 11400000, guid: fb51647d596266448a1a0f55dce74e81, type: 2}
+      objectReference: {fileID: 11400000, guid: eb30812f53f7cfa429d1074cd4d58c98, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bad2cde4097966d45bef9deeeff6b7a9, type: 3}
 --- !u!1001 &1108202023
