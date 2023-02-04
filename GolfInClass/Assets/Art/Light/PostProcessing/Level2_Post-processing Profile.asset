@@ -10,49 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: Level4_Post-processing Profile 2
+  m_Name: Level2_Post-processing Profile
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 1708841409061910500}
   - {fileID: 6806410117555366091}
-  - {fileID: 1503161974293975515}
---- !u!114 &1503161974293975515
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
-  m_Name: AutoExposure
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  filtering:
-    overrideState: 1
-    value: {x: 53.999985, y: 99}
-  minLuminance:
-    overrideState: 0
-    value: 0.13
-  maxLuminance:
-    overrideState: 0
-    value: 9
-  keyValue:
-    overrideState: 1
-    value: 0.85
-  eyeAdaptation:
-    overrideState: 1
-    value: 0
-  speedUp:
-    overrideState: 1
-    value: 2
-  speedDown:
-    overrideState: 1
-    value: 1
 --- !u!114 &1708841409061910500
 MonoBehaviour:
   m_ObjectHideFlags: 3
