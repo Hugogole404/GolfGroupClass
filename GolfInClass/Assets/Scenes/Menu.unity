@@ -246,10 +246,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levels:
   - Level_1
+  - Level_2
+  - Level_3
+  - Level_4
+  - Level_5
+  - Level_6
+  - Level_7
+  - Level_8
+  - Level_9
+  - Level_10
+  - Level_11
+  - Level_12
+  - Level_13
+  - Level_14
+  - Level_15
+  - Scoreboard
   playerColours:
   - {r: 0.8113208, g: 0.09644008, b: 0.09644008, a: 0}
   - {r: 0.12114634, g: 0.6124527, b: 0.7735849, a: 0}
-  - {r: 0.779165, g: 0.7830189, b: 0.12262374, a: 0}
   levelIndex: 0
 --- !u!1 &460718495
 GameObject:

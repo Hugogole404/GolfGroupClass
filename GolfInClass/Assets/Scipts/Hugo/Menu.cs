@@ -74,7 +74,7 @@ public class Menu : MonoBehaviour
     #region Fade
     public void FadePlayComplete()
     {
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("Level_1");
     }    
     public void FadeCreditsComplete()
     {

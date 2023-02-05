@@ -173,7 +173,6 @@ public class BallController : MonoBehaviour
         holeTime += Time.deltaTime;
         if (holeTime > minHoleTime)
         {
-            levelManager.NextPlayer(putts);
 
             // le player fini le niveau et passe au suivant 
             if (putts <= 1)
@@ -184,6 +183,7 @@ public class BallController : MonoBehaviour
             {
                 Debug.Log("Vous avez passé ce niveau en " + putts + " tirs");
             }
+            levelManager.NextPlayer(putts);
             holeTime = 0;
         }
     }
