@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour
             if (playerRecords.levelIndex == playerRecords.levels.Length)
             {
                 // afficher le tableau des scores 
-                Debug.Log("Scoreboard");
+                SceneManager.LoadScene("Scoreboard");
             }
             else
             {
