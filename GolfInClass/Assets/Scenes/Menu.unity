@@ -246,12 +246,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levels:
   - Level_1
-  - Level_2
-  - Level_3
   playerColours:
   - {r: 0.8113208, g: 0.09644008, b: 0.09644008, a: 0}
   - {r: 0.12114634, g: 0.6124527, b: 0.7735849, a: 0}
   - {r: 0.779165, g: 0.7830189, b: 0.12262374, a: 0}
+  levelIndex: 0
 --- !u!1 &460718495
 GameObject:
   m_ObjectHideFlags: 0

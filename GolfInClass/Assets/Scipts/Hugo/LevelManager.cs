@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Serialization;
+using UnityEngine.SceneManagement;
 using DG.Tweening;
 
 public class LevelManager : MonoBehaviour
@@ -29,6 +30,24 @@ public class LevelManager : MonoBehaviour
 
     public void NextPlayer(int previousPutts)
     {
-
+        playerRecords.AddPutts(playerIndex, previousPutts);
+        if (playerIndex < playerRecords.playerList.Count - 1)
+        {
+            playerIndex++;
+            SetupPlayer();
+        }
+        else
+        {
+            if (playerRecords.levelIndex == playerRecords.levels.Length)
+            {
+                // afficher le tableau des scores 
+                Debug.Log("Scoreboard ");
+            }
+            else
+            {
+                playerRecords.levelIndex++;
+                SceneManager.LoadScene(playerRecords.levels[playerRecords.levelIndex]);
+            }
+        }
     }
 }

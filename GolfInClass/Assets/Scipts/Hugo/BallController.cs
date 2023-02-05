@@ -56,7 +56,8 @@ public class BallController : MonoBehaviour
     public GameObject boosterArea;
     private float boosterTime;
 
-
+    // autre
+    public LevelManager levelManager;
     
 
     void Awake()
@@ -172,6 +173,8 @@ public class BallController : MonoBehaviour
         holeTime += Time.deltaTime;
         if (holeTime > minHoleTime)
         {
+            levelManager.NextPlayer(putts);
+
             // le player fini le niveau et passe au suivant 
             if (putts <= 1)
             {
