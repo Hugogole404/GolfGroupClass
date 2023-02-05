@@ -9,6 +9,10 @@ using DG.Tweening;
 
 public class BallController : MonoBehaviour
 {
+    // start ball  
+    [Header("Ball Position")]
+    public Transform startTransform;
+
     // respawn ball 
     [Header("Resapawn Ball Settings")]
     private Vector3 lastPosition;
@@ -52,6 +56,7 @@ public class BallController : MonoBehaviour
     public GameObject boosterArea;
     private float boosterTime;
 
+
     
 
     void Awake()
@@ -60,6 +65,7 @@ public class BallController : MonoBehaviour
         ball = GetComponent<Rigidbody>();
         ball.maxAngularVelocity = 1000;
         line = GetComponent<LineRenderer>();
+        startTransform.GetComponent<MeshRenderer>().enabled = false;
     }
 
     //#region Rayon
@@ -259,5 +265,18 @@ public class BallController : MonoBehaviour
             ball.velocity = Vector3.zero;
             ball.angularVelocity = Vector3.zero;
         }
+    }
+
+    public void SetupBall(Color color)
+    {
+        transform.position = startTransform.position;
+        angle = startTransform.rotation.eulerAngles.y;
+        ball.velocity = Vector3.zero;
+        ball.angularVelocity = Vector3.zero;
+        GetComponent<MeshRenderer>().material.SetColor("_Color", color);
+        line.material.SetColor("_Color", color);
+        line.enabled = true;
+        putts = 0;
+        puttsCountsLabel.text = "0";
     }
 }

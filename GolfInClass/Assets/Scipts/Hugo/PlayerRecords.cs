@@ -15,7 +15,7 @@ public class PlayerRecords : MonoBehaviour
     }
 
     public void AddPlayer(string name)
-    {
+    { 
         playerList.Add(new Player(name, playerColours[playerList.Count], levels.Length));
     }
 
