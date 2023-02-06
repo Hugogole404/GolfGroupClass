@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.90404755, g: 0.66367996, b: 0.569902, a: 1}
+  m_IndirectSpecularColor: {r: 0.9039776, g: 0.66400206, b: 0.5706496, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1034,6 +1034,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7144303326432608981, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: Boosterdirection.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7255038933469546559, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3005,6 +3009,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 696962470}
     - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
+      propertyPath: boosterArea
+      value: 
+      objectReference: {fileID: 1623614326}
+    - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: levelManager
       value: 
       objectReference: {fileID: 986976011}
@@ -3957,6 +3965,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7144303326432608981, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: Boosterdirection.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7255038933469546559, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -4526,6 +4538,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7144303326432608981, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: Boosterdirection.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7144303326432608981, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: Boosterdirection.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7255038933469546559, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7897,6 +7917,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2449571891248042137, guid: 72a7a2bc204bf3c4d800c4a87b05edac, type: 3}
   m_PrefabInstance: {fileID: 1596922073}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1623614326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7144303326432608984, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+  m_PrefabInstance: {fileID: 1542575434}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1626384477
 GameObject:
   m_ObjectHideFlags: 0
@@ -7998,6 +8023,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7144303326432608981, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: Boosterdirection.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7255038933469546559, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
       propertyPath: m_RootOrder
       value: 1
