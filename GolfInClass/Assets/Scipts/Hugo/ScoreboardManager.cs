@@ -14,7 +14,7 @@ public class ScoreboardManager : MonoBehaviour
 
     private void Start()
     {
-        playerRecords = GameObject.Find("PlayerRecord").GetComponent<PlayerRecords>();
+        playerRecords = GameObject.Find("_PlayerRecords").GetComponent<PlayerRecords>();
         names.text = "";
         putts.text = "";
         foreach (var player in playerRecords.GetScoreboardList())
