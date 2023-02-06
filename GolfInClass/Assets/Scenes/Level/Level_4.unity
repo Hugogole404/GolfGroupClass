@@ -3084,6 +3084,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Porte_qui_ferme 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4375376480904825228, guid: ffa5992ee553eab44b7f5c81688e4f27, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a3cf819d0de9bfc46a6be7b9c1208a73, type: 2}
+    - target: {fileID: 8464900878165316735, guid: ffa5992ee553eab44b7f5c81688e4f27, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fac5076b2100eec41bf5e5b0b8b3183d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa5992ee553eab44b7f5c81688e4f27, type: 3}
 --- !u!1 &1947640067
