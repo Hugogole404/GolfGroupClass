@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.90404755, g: 0.66367996, b: 0.569902, a: 1}
+  m_IndirectSpecularColor: {r: 0.9039776, g: 0.66400206, b: 0.5706496, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3159,7 +3159,7 @@ GameObject:
   - component: {fileID: 737758286}
   m_Layer: 0
   m_Name: Wind Area
-  m_TagString: Untagged
+  m_TagString: windArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3190,8 +3190,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.5873194, y: 3.449503, z: 3.4669304}
-  m_Center: {x: 0.070615515, y: -0.26447895, z: 1.2334583}
+  m_Size: {x: 3.2715657, y: 4.6939206, z: 6.5122986}
+  m_Center: {x: -0.044364605, y: 0.3577326, z: 2.7561443}
 --- !u!114 &737758287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3204,8 +3204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72cc7b7551a64cb44b67a7d20c0728d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AirStrength: 1
-  Airdirection: {x: 0, y: 0, z: 1}
+  AirStrength: 0.4
+  Airdirection: {x: -1, y: 0, z: 0}
 --- !u!1 &762011280
 GameObject:
   m_ObjectHideFlags: 0
