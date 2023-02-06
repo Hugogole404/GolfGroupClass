@@ -3108,7 +3108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BoosterStrength: 0.4
-  Boosterdirection: {x: 1, y: 0, z: 0}
+  Boosterdirection: {x: -1, y: 0, z: 0}
 --- !u!1 &976336757
 GameObject:
   m_ObjectHideFlags: 0
