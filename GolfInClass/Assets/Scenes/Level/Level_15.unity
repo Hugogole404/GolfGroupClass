@@ -3221,6 +3221,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 775365899347947453, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca671f4cd9f15024b9253fbb41e0954b, type: 2}
+    - target: {fileID: 1715300060128620645, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca671f4cd9f15024b9253fbb41e0954b, type: 2}
+    - target: {fileID: 3213847792644021652, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca671f4cd9f15024b9253fbb41e0954b, type: 2}
+    - target: {fileID: 6777024174648847766, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca671f4cd9f15024b9253fbb41e0954b, type: 2}
     - target: {fileID: 7255038933469546559, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3269,6 +3285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GPE_Vitesse
       objectReference: {fileID: 0}
+    - target: {fileID: 8438138218116650585, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca671f4cd9f15024b9253fbb41e0954b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
 --- !u!1001 &766515769
