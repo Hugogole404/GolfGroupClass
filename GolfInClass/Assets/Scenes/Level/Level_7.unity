@@ -1706,6 +1706,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 696962470}
     - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
+      propertyPath: levelManager
+      value: 
+      objectReference: {fileID: 1563130655}
+    - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
+      propertyPath: startTransform
+      value: 
+      objectReference: {fileID: 1359228871}
+    - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: puttsCountsLabel
       value: 
       objectReference: {fileID: 696962471}
@@ -1887,6 +1895,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 861061069, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 743706259}
+    - target: {fileID: 861061069, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnCLickOnMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 8375576945351137553, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2018,6 +2034,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &696962473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 861061067, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+  m_PrefabInstance: {fileID: 696962469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &696962474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 861061069, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+  m_PrefabInstance: {fileID: 696962469}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696962473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &696962475 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1153324284, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+  m_PrefabInstance: {fileID: 696962469}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &743706257
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,14 +2113,14 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 696962474}
   ButtonPlay: {fileID: 0}
   ButtonLevels: {fileID: 0}
   ButtonCredits: {fileID: 0}
-  ButtonMenu: {fileID: 0}
+  ButtonMenu: {fileID: 696962473}
   ButtonQuit: {fileID: 0}
   Text: {fileID: 0}
-  ImageFade: {fileID: 0}
+  ImageFade: {fileID: 696962475}
   ColorInitial: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
   ColorSelected: {r: 0.8207547, g: 0, b: 0, a: 0}
 --- !u!4 &743706260
