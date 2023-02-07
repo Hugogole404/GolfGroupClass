@@ -153,13 +153,7 @@ public class BallController : MonoBehaviour
         powerUPTime = 0;
         putts++;
         puttsCountsLabel.text = putts.ToString();
-        //PlayBonk();
     }
-
-    //public void PlayBonk()
-    //{
-    //    FindObjectOfType<AudioManager>().Play("Win");
-    //}
 
     private void PowerUp()
     {
@@ -173,7 +167,6 @@ public class BallController : MonoBehaviour
         if (other.tag == "Hole")
         {
             CountHoleTime();
-            FindObjectOfType<AudioManager>().Play("Win");
         }
     }
 

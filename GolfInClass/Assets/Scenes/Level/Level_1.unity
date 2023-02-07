@@ -2782,23 +2782,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Win
-    clip: {fileID: 8300000, guid: fd47dfc85c6ee7a46b315a5c6d0e0b68, type: 3}
-    volume: 0.55
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
   - name: Theme
     clip: {fileID: 8300000, guid: 72b01df6a1be2e94bbee38017156d4de, type: 3}
-    volume: 0.3
+    volume: 0.5
     pitch: 1
     loop: 1
-    source: {fileID: 0}
-  - name: Bonk
-    clip: {fileID: 8300000, guid: 91461f437d8ae17438eb96d9dd543f2b, type: 3}
-    volume: 0.3
-    pitch: 1
-    loop: 0
     source: {fileID: 0}
 --- !u!4 &1928208476
 Transform:
