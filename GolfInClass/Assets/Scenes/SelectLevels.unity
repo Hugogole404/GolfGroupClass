@@ -426,6 +426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 42152571}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &244253770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -729,6 +730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 244253773}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &352485651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1032,6 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 352485654}
+  ImageFade: {fileID: 1465146974}
 --- !u!1 &352642833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 386423302}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &514147486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1871,6 +1875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 514147489}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &581993699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2174,6 +2179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 581993702}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &598763156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2475,6 +2481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 598763159}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &599620446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2778,6 +2785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 599620449}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &708255495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3079,6 +3087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 708255498}
+  ImageFade: {fileID: 1465146974}
 --- !u!1 &735961511
 GameObject:
   m_ObjectHideFlags: 0
@@ -3474,6 +3483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 829262533}
+  ImageFade: {fileID: 1465146974}
 --- !u!1 &923581803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,6 +3869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 931663269}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &1048645916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4160,6 +4171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 1048645919}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &1136911890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4463,6 +4475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 1136911893}
+  ImageFade: {fileID: 1465146974}
 --- !u!1 &1138265232
 GameObject:
   m_ObjectHideFlags: 0
@@ -4831,6 +4844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 1226043524}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &1252837368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5134,6 +5148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 1252837371}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &1269288326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5437,6 +5452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 1269288329}
+  ImageFade: {fileID: 1465146974}
 --- !u!1 &1465146972
 GameObject:
   m_ObjectHideFlags: 0
@@ -5816,6 +5832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 1468971116}
+  ImageFade: {fileID: 1465146974}
 --- !u!1001 &1589840347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6495,3 +6512,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelButtonClicked: {fileID: 1783782039}
+  ImageFade: {fileID: 1465146974}
