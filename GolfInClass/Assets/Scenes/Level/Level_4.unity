@@ -899,7 +899,7 @@ PrefabInstance:
     - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: puttsCountsLabel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 909650103}
     - target: {fileID: 5129004818030577500, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2284,6 +2284,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &909650103 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5461339940310690676, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+  m_PrefabInstance: {fileID: 909650101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &909650104 stripped

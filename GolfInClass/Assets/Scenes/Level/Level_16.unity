@@ -1662,7 +1662,7 @@ PrefabInstance:
     - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: puttsCountsLabel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1812174955}
     - target: {fileID: 5470900912918201137, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: m_Name
       value: Ball
@@ -6659,6 +6659,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1812174955 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5461339940310690676, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+  m_PrefabInstance: {fileID: 1812174950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1821796629

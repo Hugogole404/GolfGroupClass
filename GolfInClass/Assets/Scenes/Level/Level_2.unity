@@ -1765,17 +1765,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2059095848388094240, guid: ac9116bda76f7ee43b3474e5399e9786, type: 3}
   m_PrefabInstance: {fileID: 717702485}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &835572871 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8375576944790290407, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
-  m_PrefabInstance: {fileID: 8375576945590594400}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &863320857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,7 +2656,7 @@ PrefabInstance:
     - target: {fileID: 5129004818030577497, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: puttsCountsLabel
       value: 
-      objectReference: {fileID: 835572871}
+      objectReference: {fileID: 8375576945590594405}
     - target: {fileID: 5129004818030577500, guid: 91cfdc3f69ef2f6449e4fb4b3deebe29, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3895,6 +3884,17 @@ MonoBehaviour:
 --- !u!114 &8375576945590594404 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1076312769, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
+  m_PrefabInstance: {fileID: 8375576945590594400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8375576945590594405 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5461339940310690676, guid: a0ce73342fd50fa49a446629ddc37f14, type: 3}
   m_PrefabInstance: {fileID: 8375576945590594400}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
