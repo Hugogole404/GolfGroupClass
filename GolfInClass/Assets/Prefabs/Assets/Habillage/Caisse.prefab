@@ -17,31 +17,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.215122
+      value: 2.2151215
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.215122
+      value: 2.2151215
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.15
+      value: -3.39
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.9741545
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.36
+      value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70710677
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.70710677
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_LocalRotation.y
@@ -70,10 +70,10 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b8edede2cc630914985c645706d4619d, type: 2}
+      objectReference: {fileID: 2100000, guid: 49327de6b3edbb7468070be422507f0d, type: 2}
     - target: {fileID: 919132149155446097, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
       propertyPath: m_Name
-      value: Caisse
+      value: Caisse (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bfa738ab1fa23d4486e63e0d8134f57, type: 3}
