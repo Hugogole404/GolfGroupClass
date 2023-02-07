@@ -103,13 +103,13 @@ public class BallController : MonoBehaviour
     void Update()
     {
 
-        if (ball.velocity.magnitude < 0.01f)
+        if (ball.velocity.magnitude < 0.15f)
         {
-            if (Input.GetKey(KeyCode.Q))
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
                 ChangeAngle(-1);
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.RightArrow))
             {
                 ChangeAngle(1);
             }
