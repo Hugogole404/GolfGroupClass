@@ -2869,6 +2869,12 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Bonk
+    clip: {fileID: 8300000, guid: 91461f437d8ae17438eb96d9dd543f2b, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &1928208476
 Transform:
   m_ObjectHideFlags: 0
