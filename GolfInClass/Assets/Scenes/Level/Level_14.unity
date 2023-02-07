@@ -339,6 +339,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 161640326}
     m_Modifications:
+    - target: {fileID: 6731324340356614292, guid: c74b6453883cb6d4a8a83b42ef48a6a0, type: 3}
+      propertyPath: simulationSpeed
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8521093179719421619, guid: c74b6453883cb6d4a8a83b42ef48a6a0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1099,6 +1103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7023780580445696270, guid: 56866bdfa0651eb41af9ae19263cdab4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 84824f49fc90ccb4ba48436b3bacfa90, type: 2}
     - target: {fileID: 7418486608570620051, guid: 56866bdfa0651eb41af9ae19263cdab4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2393,6 +2401,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7023780580445696270, guid: 56866bdfa0651eb41af9ae19263cdab4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 84824f49fc90ccb4ba48436b3bacfa90, type: 2}
     - target: {fileID: 7418486608570620051, guid: 56866bdfa0651eb41af9ae19263cdab4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2611,6 +2623,10 @@ PrefabInstance:
     - target: {fileID: 855356438400693266, guid: 4d2908379b59f9840930f24ef40c3f55, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2374981320406004277, guid: 4d2908379b59f9840930f24ef40c3f55, type: 3}
+      propertyPath: simulationSpeed
+      value: 1.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d2908379b59f9840930f24ef40c3f55, type: 3}
@@ -4539,6 +4555,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 161640326}
     m_Modifications:
+    - target: {fileID: 6731324340356614292, guid: c74b6453883cb6d4a8a83b42ef48a6a0, type: 3}
+      propertyPath: simulationSpeed
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8521093179719421619, guid: c74b6453883cb6d4a8a83b42ef48a6a0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6070,6 +6090,10 @@ PrefabInstance:
     - target: {fileID: 855356438400693266, guid: 4d2908379b59f9840930f24ef40c3f55, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2374981320406004277, guid: 4d2908379b59f9840930f24ef40c3f55, type: 3}
+      propertyPath: simulationSpeed
+      value: 1.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d2908379b59f9840930f24ef40c3f55, type: 3}
