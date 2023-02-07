@@ -55,10 +55,11 @@ public class BallController : MonoBehaviour
     [SerializeField] private bool InBoosterArea = false;
     public GameObject boosterArea;
     private float boosterTime;
+    public float distancePowerModifier;
 
     // autre
     public LevelManager levelManager;
-    
+
 
     void Awake()
     {
@@ -101,13 +102,14 @@ public class BallController : MonoBehaviour
 
     void Update()
     {
-        if (ball.velocity.magnitude < 0.01f)
+
+        if (ball.velocity.magnitude < 0.15f)
         {
-            if (Input.GetKey(KeyCode.Q))
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
                 ChangeAngle(-1);
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.RightArrow))
             {
                 ChangeAngle(1);
             }
@@ -171,8 +173,10 @@ public class BallController : MonoBehaviour
     private void CountHoleTime()
     {
         holeTime += Time.deltaTime;
+        
         if (holeTime > minHoleTime)
         {
+
 
             // le player fini le niveau et passe au suivant 
             if (putts <= 1)
@@ -228,7 +232,9 @@ public class BallController : MonoBehaviour
             boosterArea = other.gameObject;
             InBoosterArea = true;
             ball.velocity = Vector3.zero;
-            gameObject.transform.DOMove(other.transform.position, 0.5f, false);
+            gameObject.transform.DOMove(other.transform.position, distancePowerModifier, false);
+            //ball.AddForce(boosterArea.GetComponent<boosterArea>().Boosterdirection * boosterArea.GetComponent<boosterArea>().BoosterStrength);
+            print("In booster area");
         }
     }
 
@@ -241,23 +247,33 @@ public class BallController : MonoBehaviour
         {
             ball.AddForce(windArea.GetComponent<windArea>().Airdirection * windArea.GetComponent<windArea>().AirStrength);
         }
-        
-        //Booster :
         if (InBoosterArea)
         {
-            
-            //GetComponent<Rigidbody>().velocity = Vector3.zero;
             boosterTime = Time.time;
+            if (boosterTime >= distancePowerModifier)
+            {
+                ball.AddForce(boosterArea.GetComponent<boosterArea>().Boosterdirection * boosterArea.GetComponent<boosterArea>().BoosterStrength);
+                boosterTime = 0;
+            }
         }
-        if (boosterTime >= 1)
-        {
-            
-            ball.AddForce(boosterArea.GetComponent<boosterArea>().Boosterdirection * boosterArea.GetComponent<boosterArea>().BoosterStrength);
-        }
-        if (boosterTime >= 10)
-        {
-            boosterTime = 0;
-        }
+        //Booster :
+        //if (InBoosterArea)
+        //{
+
+        //    //GetComponent<Rigidbody>().velocity = Vector3.zero;
+        //    //boosterTime = Time.time;
+        //    boosterTime += Time.fixedDeltaTime;
+        //}
+        //if (boosterTime >= 1)
+        //{
+        //    ball.AddForce(boosterArea.GetComponent<boosterArea>().Boosterdirection * boosterArea.GetComponent<boosterArea>().BoosterStrength);
+        //    boosterTime = 0;
+        //}
+        //if (boosterTime >= 2)
+        //{
+        //    boosterTime = 0;
+        //    InBoosterArea = false;
+        //}
     }
 
     private void OnCollisionEnter(Collision collision)
