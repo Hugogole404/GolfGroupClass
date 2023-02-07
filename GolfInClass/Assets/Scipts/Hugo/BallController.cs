@@ -167,14 +167,17 @@ public class BallController : MonoBehaviour
         if (other.tag == "Hole")
         {
             CountHoleTime();
+            FindObjectOfType<AudioManager>().Play("Win");
         }
     }
 
     private void CountHoleTime()
     {
         holeTime += Time.deltaTime;
+        
         if (holeTime > minHoleTime)
         {
+
 
             // le player fini le niveau et passe au suivant 
             if (putts <= 1)
