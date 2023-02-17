@@ -3984,7 +3984,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7144303326432608981, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
       propertyPath: BoosterStrength
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7255038933469546559, guid: 3ce885eb6861a334b9b88e2ae6131222, type: 3}
       propertyPath: m_RootOrder

@@ -824,7 +824,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Total : \nTotal : \nTotal : \nTotal : \nTotal : \nTotal : \nTotal : "
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3eb56e4d59ff24345a0cf046bca7a3bc, type: 2}
   m_sharedMaterial: {fileID: -830470675173789196, guid: 3eb56e4d59ff24345a0cf046bca7a3bc, type: 2}
@@ -1360,7 +1360,6 @@ MonoBehaviour:
   - Scoreboard
   playerColours:
   - {r: 1, g: 0.27450982, b: 0, a: 0}
-  - {r: 0, g: 1, b: 0.5686275, a: 0}
   levelIndex: 0
 --- !u!4 &1186175026
 Transform:
@@ -1806,3 +1805,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   names: {fileID: 1479554351}
   putts: {fileID: 1178117258}
+  total: {fileID: 919053397}

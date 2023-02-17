@@ -515,7 +515,6 @@ MonoBehaviour:
   - Scoreboard
   playerColours:
   - {r: 1, g: 0.2723468, b: 0, a: 0}
-  - {r: 0, g: 0.7924528, b: 0.45061034, a: 0}
   levelIndex: 0
 --- !u!1 &460718495
 GameObject:
