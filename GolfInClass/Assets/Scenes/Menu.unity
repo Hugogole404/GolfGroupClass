@@ -3023,7 +3023,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1 to 2 players
+  m_text: 1 player
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3eb56e4d59ff24345a0cf046bca7a3bc, type: 2}
   m_sharedMaterial: {fileID: -830470675173789196, guid: 3eb56e4d59ff24345a0cf046bca7a3bc, type: 2}
